@@ -1,18 +1,37 @@
-<script setup lang="ts">
-</script>
-
 <template>
-  <div class="bg-[#303030] h-screen m-0">
-    <div class="bg-onda h-screen">
-      <h1 class="text-bold ">Este es</h1>
-      <svg xmlns='http://www.w3.org/2000/svg' width='100' height='18'><path fill='#353535' fill-opacity='.4' d='M61.82 18c3.47-1.45 6.86-3.78 11.3-7.34C78 6.76 80.34 5.1 83.87 3.42 88.56 1.16 93.75 0 100 0v6.16C98.76 6.05 97.43 6 96 6c-9.59 0-14.23 2.23-23.13 9.34-1.28 1.03-2.39 1.9-3.4 2.66h-7.65zm-23.64 0H22.52c-1-.76-2.1-1.63-3.4-2.66C11.57 9.3 7.08 6.78 0 6.16V0c6.25 0 11.44 1.16 16.14 3.42 3.53 1.7 5.87 3.35 10.73 7.24 4.45 3.56 7.84 5.9 11.31 7.34zM61.82 0h7.66a39.57 39.57 0 0 1-7.34 4.58C57.44 6.84 52.25 8 46 8S34.56 6.84 29.86 4.58A39.57 39.57 0 0 1 22.52 0h15.66C41.65 1.44 45.21 2 50 2c4.8 0 8.35-.56 11.82-2z'/></svg>
+  <div class=" h-screen m-0">
+    <div class="h-screen flex">
+      <div class="mt-44 ml-48">
+        <p class="text-5xl">Hello web,</p>
+        <h1 class="font-extrabold text-[175px]">I'm Elvis</h1>
+        <div class="flex gap-96 w-11/12 pr-10">
+          <p class="w-1/3">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+            galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+            also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+            software like Aldus PageMaker including versions of Lorem Ipsum.
+          </p>
+          <div class="flex flex-col mt-16 gap-4">
+            <p class="text-xl">Aquí va un texto para explicar algo</p>
+            <p class="text-xl">Aquí otro texto va un texto y aquí también</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="w-64 vertical-text flex gap-20 flex-col  justify-center">
+        <p class="text font-bold text-xl">EXPERIENCE</p>
+        <p class="text font-bold text-xl">ESTUDIES</p>
+        <p class="text font-bold text-xl">CONTACTS</p>
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped>
-.bg-onda {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='18'%3E%3Cpath fill='%23353535' fill-opacity='.4' d='M61.82 18c3.47-1.45 6.86-3.78 11.3-7.34C78 6.76 80.34 5.1 83.87 3.42 88.56 1.16 93.75 0 100 0v6.16C98.76 6.05 97.43 6 96 6c-9.59 0-14.23 2.23-23.13 9.34-1.28 1.03-2.39 1.9-3.4 2.66h-7.65zm-23.64 0H22.52c-1-.76-2.1-1.63-3.4-2.66C11.57 9.3 7.08 6.78 0 6.16V0c6.25 0 11.44 1.16 16.14 3.42 3.53 1.7 5.87 3.35 10.73 7.24 4.45 3.56 7.84 5.9 11.31 7.34zM61.82 0h7.66a39.57 39.57 0 0 1-7.34 4.58C57.44 6.84 52.25 8 46 8S34.56 6.84 29.86 4.58A39.57 39.57 0 0 1 22.52 0h15.66C41.65 1.44 45.21 2 50 2c4.8 0 8.35-.56 11.82-2z'/%3E%3C/svg%3E");
-  @apply bg-repeat;
+.text {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
 }
 </style>
