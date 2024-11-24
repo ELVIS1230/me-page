@@ -11,23 +11,19 @@
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
               a
               galley of type and scrambled it to make a type specimen b Ipsum.
+              <font-awesome-icon :icon="['fab', 'github']" />
             </p>
           </div>
           <div class="mt-10 flex gap-20 justify-center items-center">
-            <p class="font-bold text-xl cursor-pointer duration-500 hover:text-[#0dff79] hover:-translate-y-2">EXPERIENCE</p>
-            <p class="font-bold text-xl cursor-pointer duration-500 hover:text-[#0dff79] hover:-translate-y-2">ESTUDIES</p>
-            <p class="font-bold text-xl cursor-pointer duration-500 hover:text-[#0dff79] hover:-translate-y-2">CONTACTS</p>
+            <p class="font-bold text-xl p-2 cursor-pointer duration-500 hover:text-[#0dff79] hover:-translate-y-2">EXPERIENCE</p>
+            <p class="font-bold text-xl p-2 cursor-pointer duration-500 hover:text-[#0dff79] hover:-translate-y-2">ESTUDIES</p>
+            <p class="font-bold text-xl p-2 cursor-pointer duration-500 hover:text-[#0dff79] hover:-translate-y-2">CONTACTS</p>
           </div>
         </div>
         <div class="flex items-center justify-center gap-4 ">
           <CardProfile />
         </div>
       </div>
-      <!-- <div class="w-64 vertical-text flex gap-20 flex-col  justify-center">
-        <p class="text font-bold text-xl">EXPERIENCE</p>
-        <p class="text font-bold text-xl">ESTUDIES</p>
-        <p class="text font-bold text-xl">CONTACTS</p>
-      </div> -->
     </div>
     <div class="border-2 border-black h-screen flex items-center justify-center">
         <p class="text-5xl font-bold">Experiencia laboral</p> 

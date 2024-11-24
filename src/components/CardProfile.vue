@@ -3,9 +3,21 @@
 
     <div class="card">
       <div class="flex gap-4 absolute bottom-4 left-4 ">
-        <p class="bg-white p-1 text-black">Github</p>
-        <p class="bg-white p-1 text-black">Github</p>
-        <p class="bg-white p-1 text-black">Github</p>
+        <div class="bg-white flex items-center gap-1">
+          <fa class="text-2xl text-black" :icon="['fab', 'facebook']" />
+          <p class=" p-1 text-black ">
+            Github
+          </p>
+        </div>
+        <div class="bg-white flex items-center gap-1">
+          <fa class="text-2xl text-black" :icon="['fab', 'github']" />
+          <p class=" p-1 text-black ">
+            Github
+          </p>
+        </div>
+        <div class="bg-white flex items-center gap-1">
+          <p class=" p-1 text-black ">Github</p>
+        </div>
       </div>
     </div>
   </section>
