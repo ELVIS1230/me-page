@@ -2,12 +2,10 @@
   <section>
 
     <div class="card">
-      <!-- <p>testoo</p> -->
-      <!-- <img src="/person.jpeg" class="rounded-3xl absolute -z-10"> -->
       <div class="flex gap-4 absolute bottom-4 left-4 ">
-        <p class="bg-white p-1">Github</p>
-        <p class="bg-white p-1">Github</p>
-        <p class="bg-white p-1">Github</p>
+        <p class="bg-white p-1 text-black">Github</p>
+        <p class="bg-white p-1 text-black">Github</p>
+        <p class="bg-white p-1 text-black">Github</p>
       </div>
     </div>
   </section>
