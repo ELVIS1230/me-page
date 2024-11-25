@@ -25,8 +25,19 @@
         </div>
       </div>
     </div>
-    <div class="border-2 border-black h-screen flex items-center justify-center">
+    <div class="border-2 border-black h-screen grid grid-cols-2 place-items-center">
         <p class="text-5xl font-bold">Experiencia laboral</p> 
+        <div class="flex h-4/5 w-full items-center justify-center p-6">
+          <div class="grid h-full w-full grid-cols-10 grid-rows-4 gap-4">
+            <div class=" col-span-4 row-span-3 bg-[#0dff79] rounded-3xl flex justify-center items-center"></div>
+            <div class=" col-span-3 xl:col-span-4 row-span-1 bg-indigo-300 rounded-3xl flex justify-center items-center"></div>
+            <div class=" col-span-3 xl:col-span-2 row-span-1 bg-indigo-300 rounded-3xl flex justify-center items-center"></div>
+            <div class=" col-span-3 row-span-2 bg-indigo-300 rounded-3xl flex justify-center items-center"></div>
+            <div class=" col-span-3 row-span-2 bg-indigo-300 rounded-3xl flex justify-center items-center"></div>
+            <div class=" col-span-4 row-span-1 bg-[#0dff79] rounded-3xl flex justify-center items-center"></div>
+            <div class=" col-span-6 row-span-1 bg-[#0dff79] rounded-3xl flex justify-center items-center"></div>
+          </div>
+        </div>
     </div>
     <div class="border-2 border-black h-screen flex items-center justify-center">
         <p class="text-5xl font-bold">Estudies</p> 
