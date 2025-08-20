@@ -15,9 +15,12 @@
             </p>
           </div>
           <div class="mt-10 flex gap-20 justify-center items-center">
-            <p class="font-bold text-xl p-2 cursor-pointer duration-500 hover:text-[#0dff79] hover:-translate-y-2">EXPERIENCE</p>
-            <p class="font-bold text-xl p-2 cursor-pointer duration-500 hover:text-[#0dff79] hover:-translate-y-2">ESTUDIES</p>
-            <p class="font-bold text-xl p-2 cursor-pointer duration-500 hover:text-[#0dff79] hover:-translate-y-2">CONTACTS</p>
+            <p class="font-bold text-xl p-2 cursor-pointer duration-500 hover:text-[#0dff79] hover:-translate-y-2">
+              EXPERIENCE</p>
+            <p class="font-bold text-xl p-2 cursor-pointer duration-500 hover:text-[#0dff79] hover:-translate-y-2">
+              ESTUDIES</p>
+            <p class="font-bold text-xl p-2 cursor-pointer duration-500 hover:text-[#0dff79] hover:-translate-y-2">
+              CONTACTS</p>
           </div>
         </div>
         <div class="flex items-center justify-center gap-4 ">
@@ -26,24 +29,80 @@
       </div>
     </div>
     <div class="border-2 border-black h-screen grid grid-cols-2 place-items-center">
-        <p class="text-5xl font-bold">Experiencia laboral</p> 
-        <div class="flex h-4/5 w-full items-center justify-center p-6">
-          <div class="grid h-full w-full grid-cols-10 grid-rows-4 gap-4">
-            <div class=" col-span-4 row-span-3 bg-[#0dff79] rounded-3xl flex justify-center items-center"></div>
-            <div class=" col-span-3 xl:col-span-4 row-span-1 bg-indigo-300 rounded-3xl flex justify-center items-center"></div>
-            <div class=" col-span-3 xl:col-span-2 row-span-1 bg-indigo-300 rounded-3xl flex justify-center items-center"></div>
-            <div class=" col-span-3 row-span-2 bg-indigo-300 rounded-3xl flex justify-center items-center"></div>
-            <div class=" col-span-3 row-span-2 bg-indigo-300 rounded-3xl flex justify-center items-center"></div>
-            <div class=" col-span-4 row-span-1 bg-[#0dff79] rounded-3xl flex justify-center items-center"></div>
-            <div class=" col-span-6 row-span-1 bg-[#0dff79] rounded-3xl flex justify-center items-center"></div>
+      <p class="text-5xl font-bold">Experiencia laboral</p>
+      <div class="flex h-4/5 w-full items-center justify-center p-6">
+        <div class="grid h-full w-full grid-cols-10 grid-rows-4 gap-4">
+          <div class=" col-span-4 row-span-3 bg-[#0dff79] rounded-3xl flex justify-center items-center"></div>
+          <div class=" col-span-3 xl:col-span-4 row-span-1 bg-indigo-300 rounded-3xl flex justify-center items-center">
+          </div>
+          <div class=" col-span-3 xl:col-span-2 row-span-1 bg-indigo-300 rounded-3xl flex justify-center items-center">
+          </div>
+          <div class=" col-span-3 row-span-2 bg-indigo-300 rounded-3xl flex justify-center items-center"></div>
+          <div class=" col-span-3 row-span-2 bg-indigo-300 rounded-3xl flex justify-center items-center"></div>
+          <div class=" col-span-4 row-span-1 bg-[#0dff79] rounded-3xl flex justify-center items-center"></div>
+          <div class=" col-span-6 row-span-1 bg-[#0dff79] rounded-3xl flex justify-center items-center"></div>
+        </div>
+      </div>
+    </div>
+    <div class="border-2 border-black h-screen flex flex-col items-center justify-center p-4">
+      <p class="text-5xl font-bold">Education</p>
+      <div class="border-2 border-white w-full h-full grid grid-cols-2">
+        <div class=" border-2 border-red-500 flex flex-col items-center">
+          <p class="text-5xl font-bold text-center text-[#0dff79]">Estudies</p>
+          <div class="border-l-2 border-[#0dff79] px-2 flex flex-col gap-6 ">
+            <div class="border-2 border-red-500">
+              <p class="text-[#0dff79]">2020-2025</p>
+              <p>Bachillerato tecnico </p>
+              <p>Conocimiento en desarrollo web asdasdsdasdsad</p>
+            </div>
+            <div>
+              <p class="text-[#0dff79]">2020-2025</p>
+              <p>Bachillerato tecnico </p>
+              <p>Conocimiento en desarrollo web asdasdsdasdsad</p>
+            </div>
+            <div>
+              <p class="text-[#0dff79]">2020-2025</p>
+              <p>Bachillerato tecnico </p>
+              <p>Conocimiento en desarrollo web asdasdsdasdsad</p>
+            </div>
+            <div>
+              <p class="text-[#0dff79]">2020-2025</p>
+              <p>Bachillerato tecnico </p>
+              <p>Conocimiento en desarrollo web asdasdsdasdsad</p>
+            </div>
           </div>
         </div>
+        <div class=" border-2 border-red-500 flex flex-col items-center">
+          <p class="text-5xl font-bold text-center text-[#0dff79]">Stack</p>
+          <div class="grid grid-cols-3 gap-4 mt-4">
+            <div class="h-32 w-32 bg-[#0dff79] rounded-md flex items-center justify-center">
+              <p class="text-white">HTML</p>
+            </div>
+            <div class="h-32 w-32 bg-[#0dff79] rounded-md flex items-center justify-center">
+              <p class="text-white">CSS</p>
+            </div>
+            <div class="h-32 w-32 bg-[#0dff79] rounded-md flex items-center justify-center">
+              <p class="text-white">JavaScript</p>
+            </div>
+          </div>
+
+          <p class="text-5xl font-bold text-center text-[#0dff79]">Technologies</p>
+          <div class="grid grid-cols-3 gap-4 mt-4">
+            <div class="h-32 w-32 bg-[#0dff79] rounded-md flex items-center justify-center">
+              <p class="text-white">HTML</p>
+            </div>
+            <div class="h-32 w-32 bg-[#0dff79] rounded-md flex items-center justify-center">
+              <p class="text-white">CSS</p>
+            </div>
+            <div class="h-32 w-32 bg-[#0dff79] rounded-md flex items-center justify-center">
+              <p class="text-white">JavaScript</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="border-2 border-black h-screen flex items-center justify-center">
-        <p class="text-5xl font-bold">Estudies</p> 
-    </div>
-    <div class="border-2 border-black h-screen flex items-center justify-center">
-        <p class="text-5xl font-bold">Contacts</p> 
+      <p class="text-5xl font-bold">Contacts</p>
     </div>
   </div>
 </template>
