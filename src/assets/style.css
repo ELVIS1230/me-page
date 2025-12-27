@@ -2,12 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --color-primary: #40bafb;
+}
+
 @layer base {
   @font-face {
     font-family: "Poppins";
     font-weight: 100 900; /* Rango de peso que usarás */
     font-style: normal;
     src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+  }
+}
+
+@layer components {
+  .bg-primary {
+    @apply bg-[color:var(--color-primary)];
+  }
+
+  .text-primary {
+    @apply text-[color:var(--color-primary)];
+  }
+
+  .border-primary {
+    @apply border-[color:var(--color-primary)];
+  }
+
+  .hover-primary {
+    @apply hover:text-[color:var(--color-primary)];
+  }
+
+  .bg-primary-light {
+    background-color: color-mix(in srgb, var(--color-primary) 30%, transparent);
+  }
+
+  .border-primary-light {
+    border-color: color-mix(in srgb, var(--color-primary) 50%, transparent);
   }
 }
 
