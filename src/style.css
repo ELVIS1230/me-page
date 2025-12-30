@@ -28,6 +28,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  zoom: 0.9; /* Escala al 90% */
 }
 
 h1 {
